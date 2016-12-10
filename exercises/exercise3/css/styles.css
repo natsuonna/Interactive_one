@@ -1,0 +1,22 @@
+body{
+    background-color: #340099;
+}
+
+p{ font-family: "avenir", sans-serif;
+   font-size: 18px; 
+   color: white;
+   font-style: italic;
+   text-align: center;
+}
+
+a:link, a:visited {
+    background-color: #340099;
+    color: white;
+    font-family: "avenir", sans-serif;
+    font-size: 18px; 
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+

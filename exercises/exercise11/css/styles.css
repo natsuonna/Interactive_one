@@ -1,0 +1,34 @@
+body{
+	background: #000000;
+}
+
+#container{
+	width: 1200px;
+	height: 4000px;
+	margin: auto;
+}
+
+
+@font-face{
+	font-family: 'Metropolis1920';
+	src: url("Metropolis1920.otf");
+}
+
+@font-face{
+	font-family: 'Bender';
+	src: url("Bender.otf");
+}
+
+#main{
+	font-family: Metropolis1920;
+	font-size: 300px;
+	color: #FF3E96;
+	text-align: center;
+}
+
+#main2{
+	font-family: Bender;
+	font-size: 300px;
+	color: #FF3E96;
+	text-align: center;
+}

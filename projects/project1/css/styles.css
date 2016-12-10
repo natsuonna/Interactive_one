@@ -1,0 +1,47 @@
+body{	
+	background-image: url(../photos/gradient.gif);
+	background-repeat: no-repeat;
+	background-position: top left; 
+	background-attachment: fixed;
+	background-size: 1800px 
+	}
+
+	h1{ font-family: "avenir", sans-serif;
+   	font-size: 24px; 
+   	color: black;
+   	text-align: center;
+   	margin-top: 50px;
+   	margin-bottom: 30px;
+	}
+
+	h2{ font-family: "avenir", sans-serif;
+   	font-size: 20px; 
+   	color: black;
+   	text-align: left;
+   	margin-right: 250px;
+    margin-left: 250px;
+	}	
+	
+	p{ font-family: "avenir", sans-serif;
+   	font-size: 18px; 
+   	color: black;
+   	text-align: left;
+	}
+		
+	p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 250px;
+    margin-left: 250px;
+	}
+
+#interviewimage {
+	clear: center;
+	margin: auto;
+	position: center; 
+	padding-left: 250px; 
+	padding-bottom: 30px; 
+}
+
+
+

@@ -1,0 +1,45 @@
+body{ 
+background: blue 
+}
+
+#circle {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background: red;
+	float: left;
+
+}
+
+#circle1 {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background: red;
+	float: left;	
+}
+
+#circle2 {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background: red;
+	float: left;	
+}
+
+#circle3 {
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background: red;
+	float: left;	
+}
+
+#circle4 {
+	height: 400px;
+	
+	width: 400px;
+	border-radius: 50%;
+	background: white;
+	position: absolute;	
+}

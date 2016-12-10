@@ -1,0 +1,70 @@
+body{
+
+background: white;
+}
+
+#container{
+	width: 1000px;
+	height: 2000px;
+}
+
+#background{
+	width: 1000px;
+	height: 350px;
+	background-color: white;
+}
+
+#top_box{
+	width: 1000px;
+	height: 200px;
+	background-color: #c784bd;
+	margin-bottom: 10px;
+}
+
+#middle_box{
+	width: 1000px;
+	height: 130px;
+	background-color: #e094d5;
+	margin-bottom: 10px;
+}
+
+#middle_background{
+	width: 1000px;
+	height: 1450px;
+	margin-bottom: 10px;
+/* the background color is white */
+}
+
+#left_column{
+	width: 325px;
+	height: 1450px;
+	margin-right: 12.5px;
+	background-color: #f9a5ed;
+	float:left;	
+}
+
+#middle_column{
+	width: 325px;
+	height: 1450px;
+	margin-right: 12.5px;
+	background-color: #f9a5ed;
+	float:left;
+/* contains the same color as above */
+}
+
+#right_column{
+	width: 325px;
+	height: 1450px;
+	float:left;
+	background-color: #f9a5ed;
+/* contains the same color as above */
+} 
+
+#bottom_box{
+	width: 1000px;
+	height: 200px;
+	background-color: #fac0f2;
+	margin-bottom: 10px;
+
+}
+

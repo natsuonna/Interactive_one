@@ -1,0 +1,26 @@
+body{
+   background: black;
+}
+
+.box1 {
+   margin-top: 200px;
+   height: 1000px;
+   width: 1000px;
+   background: blue;
+   color: yellow;
+   font-size: 50px;
+   font-family: helvetica;
+   padding: 30px;
+}
+
+.box2 {
+   margin-bottom: 200px;
+   height: 800px;
+   width: 800px;
+   background: green;
+   color: white;
+   font-size: 50px;
+   font-family: helvetica;
+   padding: 30px;
+   text-align: center;
+}

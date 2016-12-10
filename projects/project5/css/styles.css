@@ -1,0 +1,101 @@
+body{
+  background-color: #0000ff; 
+}
+
+ a:link, a:visited {
+    font: normal 110px/normal "Warnes", Helvetica, sans-serif;
+    color: rgba(255,255,255,1);
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* this is the money effect*/
+
+#money{
+  background: none;
+  font-family: Androgyne;
+  background-image: 
+  url(../aziz/moneysign.gif);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index:1;
+  -webkit-animation: snow 10s linear infinite;
+  -moz-animation: snow 10s linear infinite;
+  -ms-animation: snow 10s linear infinite;
+  animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+} 
+
+/* this is the neon sign effect*/
+
+.button {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  font: normal 110px/normal "Warnes", Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 
+  0 0 20px rgba(255,255,255,1) , 
+  0 0 30px rgba(255,255,255,1) , 
+  0 0 40px #ff0000 , 
+  0 0 70px #ff0000 , 
+  0 0 80px #e1ff00 , 
+  0 0 100px #6a00ff ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+ width: 200px;
+  height: 200px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  position: absolute;
+  top: 310px;
+  left: 250px;
+
+}
+
+.button:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 
+  0 0 20px rgba(255,255,255,1) , 
+  0 0 30px rgba(255,255,255,1) , 
+  0 0 40px #00ffff , 0 0 70px #00ffff , 
+  0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+
+
+
+

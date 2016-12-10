@@ -1,0 +1,478 @@
+body{
+	/*background-color: black;*/
+	background-repeat: repeat;	
+	background-image: url(../images/gifs/spiral4.gif);
+	background-size: 500px;
+	background-position: top left; 
+	background-attachment: fixed;
+}
+
+#circle1 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/spiral3.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 150px;
+	left: 250px;
+}
+
+#circle2 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/grid4.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 660px;
+	right: 290px;
+}
+
+#circle3 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/grid5.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 1199px;
+	left: 255px;
+}
+
+#circle4 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/spiral3.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 1705px;
+	right: 290px;
+}
+
+#circle5 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/grid4.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 2220px;
+	left: 255px;
+}
+
+#circle6 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/grid5.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 2725px;
+	right: 290px;
+}
+
+#circle7 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/spiral3.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 3245px;
+	left: 255px;
+}
+
+#circle8 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/grid4.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 3750px;
+	right: 290px;
+}
+
+#circle9 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/grid5.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 4270px;
+	left: 255px;
+}
+
+#circle10 {
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/gifs/spiral3.gif);
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	position: absolute;
+	top: 4785px;
+	right: 290px;
+}
+
+#container1{
+	width: 1400px;
+	height: 5000px;
+}
+
+#red1{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/red/1955r.jpg);
+	margin: 7px;
+	float: left;
+}
+
+#red2{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/red/1957_1r.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#red3{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/red/1957r.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#red4{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/red/1968r.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#red5{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/red/1950r.jpeg);
+	margin: 7px;
+	float: left;
+}
+
+#red6{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/red/1951r.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#red7{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/red/1952r.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#red8{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/red/1970r.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#container2{
+	width: 1400px;
+	height: 5000px;
+}
+
+#orange1{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/orange/1955o.jpeg);
+	margin: 7px;
+	float: left;
+}
+
+#orange2{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/orange/1956o.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#orange3{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/orange/1960o.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#orange4{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/orange/1962o.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#orange5{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/orange/1961o.jpg);
+	margin: 7px;
+	float: left;
+}
+
+#orange6{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/orange/1963o.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#orange7{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/orange/1964o.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#orange8{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/orange/1965o.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#container3{
+	width: 1400px;
+	height: 5000px;
+}
+
+#yellow1{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/yellow/1953y.jpg);
+	margin: 7px;
+	float: left;
+}
+
+#yellow2{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/yellow/1955y.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#yellow3{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/yellow/1956y.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#yellow4{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/yellow/1960y.jpg);
+	float: left;
+	margin: 7px;
+} 
+
+#container4{
+	width: 1400px;
+	height: 5000px;
+}
+
+#green1{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/green/1955g.jpg);
+	margin: 7px;
+	float: left;
+}
+
+#green2{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/green/1956g.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#green3{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/green/1960g.png);
+	float: left;
+	margin: 7px;
+}
+
+#green4{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/green/1961g.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#container5{
+	width: 1400px;
+	height: 5000px;
+}
+
+#blue1{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/blue/1952b.jpg);
+	margin: 7px;
+	float: left;
+}
+
+#blue2{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/blue/1956b.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#blue3{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/blue/1960b.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#blue4{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/blue/1962b.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#blue5{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/blue/1961b.jpg);
+	margin: 7px;
+	float: left;
+}
+
+#blue6{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/blue/1964b.jpeg);
+	float: left;
+	margin: 7px;
+}
+
+#blue7{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/blue/1965b.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#blue8{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/blue/1963b.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#container6{
+	width: 1400px;
+	height: 5000px;
+}
+
+#purple1{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/purple/1957p.jpg);
+	margin: 7px;
+	float: left;
+}
+
+#purple2{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/purple/1960p.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#purple3{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/purple/1967p.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#purple4{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/purple/1968p.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#purple5{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/purple/1961p.jpg);
+	margin: 7px;
+	float: left;
+}
+
+#purple6{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/purple/1964p.jpg);
+	float: left;
+	margin: 7px;
+}
+
+#purple7{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/purple/1965p.jpeg);
+	float: left;
+	margin: 7px;
+}
+
+#purple8{
+	width: 332px;
+	height: 500px;
+	background-image: url(../images/colors/purple/1963p.jpg);
+	float: left;
+	margin: 7px;
+}

@@ -1,0 +1,47 @@
+
+
+   h1{ font-family: "avenir", sans-serif;
+      font-size: 24px; 
+      color: black;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 30px;
+   }
+
+/* This is the animation code. */
+@-webkit-keyframes example {
+   from { transform: scale(2.0); }
+   to   { transform: scale(1.0); }
+}
+
+/* This is the element that we apply the animation too. */
+.colorbox {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 200px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   background: blue;
+   animation-iteration-count: infinite;
+}
+
+.colorbox2 {
+   -webkit-animation-name: example;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-timing-function: ease; /* ease is the default */
+   -webkit-animation-delay: 1s;             /* 0 is the default */
+   -webkit-animation-iteration-count: 2;    /* 1 is the default */
+   -webkit-animation-direction: alternate;  /* normal is the default */
+   margin-left: 300px;
+   margin-top: 200px;
+   height: 300px;
+   width: 300px;
+   opacity: .3;
+   background: yellow;
+   animation-iteration-count: infinite;
+}
